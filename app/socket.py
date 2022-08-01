@@ -12,7 +12,7 @@ if os.environ.get('FLASK_ENV') == 'production':
 else:
   origins = '*'
 
-socketio = SocketIO(allowEIO3: True, cors_allowed_origins='*')
+socketio = SocketIO(cors_allowed_origins='*', allowEIO3: True)
 
 @socketio.event
 def connect():
