@@ -33,4 +33,4 @@ eventlet = "==0.30.2"
 psycopg2-binary = "==2.8.6"
 
 [requires]
-python_version = "3.9"
+python_version = "3.8.13"
